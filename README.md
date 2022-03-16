@@ -12,15 +12,15 @@
 >> - 2차원 축(열): axis 1 => Matrix
 > ### Numpy 함수
 >> - 배열 초기화
->>  #### - '.arange'\
+>>   - '.arange'\
  = arr1 = np.arange(4) => [0 1 2 3]
->>  #### - 'zeros, ones'  
+>>   - 'zeros, ones'  
 = arr2 = np.zeros((4, 4), dtype = float)\
  =>  4*4 크기 [[0, 0, 0, 0], [0, 0, 0, 0]]  
- >>  #### - ".random.###" \
+ >>   - ".random.###" \
  arr3 = np.random.randint(0, 10, (3, 3))
 
- >> #### - Numpy 배열 변환
+ >>  - Numpy 배열 변환
  >>  - arr2 = np.arange(8).reshape(2, 4)\
  \-결과- \
 [0 1 2 3]         
