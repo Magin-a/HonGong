@@ -12,12 +12,11 @@
 >> - 2차원 축(열): axis 1 => Matrix
 >> - 3차원 축(채널): axis => Tensor(3차원 이상)
 
-
 > ### Numpy 함수
 >> - 배열 초기화
 >> > - '.arange'\
  = arr1 = np.arange(4) => [0 1 2 3]
->> > - 'zeros, ones' \ 
+>> > - 'zeros, ones'  
 = arr2 = np.zeros((4, 4), dtype = float)\
  =>  4*4 크기 [[0, 0, 0, 0], [0, 0, 0, 0]]
  >> > - ".random.###" \
