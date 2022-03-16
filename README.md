@@ -10,28 +10,24 @@
 >  ### Numpy의 차원
 >> - 1차원 축(행): axis 0 => Vector
 >> - 2차원 축(열): axis 1 => Matrix
->> - 3차원 축(채널): axis => Tensor(3차원 이상)
-
 > ### Numpy 함수
 >> - 배열 초기화
->> > - '.arange'\
+>>  - '.arange'\
  = arr1 = np.arange(4) => [0 1 2 3]
->> > - 'zeros, ones'  
+>>  - 'zeros, ones'  
 = arr2 = np.zeros((4, 4), dtype = float)\
- =>  4*4 크기 [[0, 0, 0, 0], [0, 0, 0, 0]]
- >> > - ".random.###" \
+ =>  4*4 크기 [[0, 0, 0, 0], [0, 0, 0, 0]]  
+ >>  - ".random.###" \
  arr3 = np.random.randint(0, 10, (3, 3))
 
-
-
  >> - Numpy 배열 변환
- >> > - arr2 = np.arange(8).reshape(2, 4)\
+ >>  - arr2 = np.arange(8).reshape(2, 4)\
  \-결과- \
 [0 1 2 3]         
 [4 5 6 7]
 
 >> - 배열 나누기
->> > - arr = np.arange(8).reshape(2,4)  \
+>>  - arr = np.arange(8).reshape(2,4)  \
 left, right = np.split(arr, [2], axis =1)   \
 \- 결과-  \
 left: [[0 1] \,
