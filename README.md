@@ -21,3 +21,20 @@
  =>  4*4 크기 [[0, 0, 0, 0], [0, 0, 0, 0]]
  >> > - ".random.###" \
  arr3 = np.random.randint(0, 10, (3, 3))
+
+
+
+ >> - Numpy 배열 변환
+ >> > - arr2 = np.arange(8).reshape(2, 4)\
+ \-결과- \
+[0 1 2 3]         
+[4 5 6 7]
+
+>> - 배열 나누기
+>> > - arr = np.arange(8).reshape(2,4)  \
+left, right = np.split(arr, [2], axis =1)   \
+\- 결과-  \
+left: [[0 1] \,
+ [4 5]]  \
+right:  [[2 3]\,
+ [6 7]]
